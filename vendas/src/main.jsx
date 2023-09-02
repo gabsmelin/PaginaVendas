@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import './index.css'
 
 //Importando componentes do router-dom
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
@@ -17,7 +16,7 @@ const router = createBrowserRouter([
     errorElement: <Erro404 />,
       children:[
         { path: '/home', element: <Home />},
-        { path: '/aparelhos', element: <Aparelho />},
+        { path: '/aparelho', element: <Aparelho />},
         { path: '/aparelho/aparelhos/:id', element: <VizualizarAparelho />},
     ]
   },
