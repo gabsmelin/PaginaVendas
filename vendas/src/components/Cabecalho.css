@@ -4,13 +4,35 @@
     box-sizing: border-box;
 }
 
+.conteudo-cabecalho {
+    margin: 2%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.conteudo-cabecalho h1{
+    font-size: 55px;
+    font-weight: 600;
+}
+.conteudo-cabecalho h3{
+    font-size: 25px;
+    font-weight:400;
+}
+.conteudo-cabecalho ul{
+    margin: 1%;
+}
+.conteudo-cabecalho a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #2296c4;
+    text-decoration: none;
+}
+
 header {
     display: flex;
     flex-direction: row;
 
     justify-content: center;
     align-items: center;
-    
+    margin: 2% 0% 4%;
 
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 12px;
@@ -25,10 +47,13 @@ ul {
     list-style-type: none;
     gap: 50px;
 }
-li {
-    
+a {
+    color: #000;
+    text-decoration: none;
 }
-
-img {
+.logo  {
+    margin-top: -5px;
     cursor: pointer;
 }
+
+

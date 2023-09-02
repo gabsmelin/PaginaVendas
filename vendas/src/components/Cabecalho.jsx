@@ -1,18 +1,22 @@
 import logo  from '../assets/img/logo.png' 
 import './Cabecalho.css'
+import {Link} from 'react-router-dom';
 
 export default function Cabecalho() {
     return(
         <div>
             <header>
-                <img src={logo} alt="Logo" />
                 <ul>
-                    <li>Loja</li>
-                    <li>Mac</li>
-                    <li>Ipad</li>
-                    <li>Iphone</li>
-                    <li>Watch</li>
-                    <li>AirPods</li>
+                    <li><Link to='/'><img className="logo" src={logo} alt="Logo" /></Link></li>
+                    <li><Link to='/home'>Home</Link></li>
+                    <li><Link to='/promocao'>Promoção</Link></li>
+                    <li><Link to='/aparelho'>Aparelhos</Link></li>
+                    <li><Link>Loja</Link></li>
+                    <li><Link>Mac</Link></li>
+                    <li><Link>Ipad</Link></li>
+                    <li><Link>Iphone</Link></li>
+                    <li><Link>Watch</Link></li>
+                    <li><Link>AirPods</Link></li>
                 </ul>
             </header>
         </div>

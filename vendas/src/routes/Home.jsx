@@ -1,11 +1,19 @@
-import Cabecalho from "../components/Cabecalho" 
-import Rodape from "../components/Rodape" 
+import { Link } from "react-router-dom"
+import Celulares from '../assets/img/celular.png'
 
 export default function Home() {
     return(
         <>
-            <Cabecalho/>
-            <Rodape/>
+            <div className="conteudo-cabecalho">
+                <h1>iPhone 14</h1>
+                <h3>Maravilindo.</h3>
+                <ul>
+                    <li><Link>Saiba Mais</Link></li>
+                    <li><Link>Comprar</Link></li>
+                </ul>
+                
+                <img className="celulares" src={Celulares} alt="" />
+            </div>
         </>
     )
 }

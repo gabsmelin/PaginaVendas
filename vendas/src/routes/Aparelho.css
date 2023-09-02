@@ -1,0 +1,12 @@
+tbody {
+    display: flex;
+    flex-direction: row;
+}
+
+ tr {
+    display: flex;
+    flex-direction: column;
+    
+    border: solid 2px #3b3b3c;
+    border-collapse: collapse; 
+}
