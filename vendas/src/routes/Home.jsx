@@ -1,5 +1,6 @@
-import { Link } from "react-router-dom"
-import Celulares from '../assets/img/celular.png'
+import { Link } from "react-router-dom";
+import Celulares from '../assets/img/celular.png';
+import './Home.css';
 
 export default function Home() {
     return(

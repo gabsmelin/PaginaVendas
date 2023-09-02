@@ -1,3 +1,8 @@
+.container-apa {
+    display: flex;
+    flex-direction: column;
+}
+
 tbody {
     display: flex;
     flex-direction: row;
@@ -6,7 +11,30 @@ tbody {
  tr {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    align-items: center;
     
     border: solid 2px #3b3b3c;
+    border-radius: 10px;
     border-collapse: collapse; 
+    padding: 30px;
+}
+td {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+img {
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.btn a {
+    border: solid 2px;
+    border-radius: 5px;
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;    
+    background-color: #fff;
+    padding: 5px;
 }
