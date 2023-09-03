@@ -3,6 +3,7 @@ import Celulares from '../assets/img/celular.png';
 import './Home.css';
 
 export default function Home() {
+    document.title = "Home";
     return(
         <>
             <div className="conteudo-cabecalho">

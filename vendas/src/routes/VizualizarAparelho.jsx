@@ -6,7 +6,7 @@ import './Vizualizar.css'
 
 
 export default function VizualizarAparelho() {
-    document.title = "Editar Produtos";
+    document.title = "Detalhes";
 
     const notify = () => toast("Adicionado ao carrinho");
 
@@ -19,18 +19,18 @@ export default function VizualizarAparelho() {
     });
 
     return(
-        <div>
+        <div className='container-vizu'>
             <h1>DETALHES SOBRE O APARELHO</h1>
-            <div>
+            <div className='conteudo'>
                 <div>
                     <img src={produtoRecuperadoPorId[0].img} alt="" />
                 </div>
-                <div>
+                <div className='textos'>
                     <h2>{produtoRecuperadoPorId[0].nome}</h2>
                     <h2>{produtoRecuperadoPorId[0].preco}</h2>
                     <p>{produtoRecuperadoPorId[0].descricao}</p>
-                    <p>{produtoRecuperadoPorId[0].gb}</p>
-                    <p>{produtoRecuperadoPorId[0].cor}</p>
+                    <p>GB: {produtoRecuperadoPorId[0].gb}</p>
+                    <p>Cor: {produtoRecuperadoPorId[0].cor}</p>
                     <h3><Link onClick={notify}>Comprar</Link><ToastContainer/></h3>
                     
                 </div>

@@ -19,6 +19,7 @@ export const ListaAparelho = [
         gb: '128GB',
         preco: 'R$4.300',
         img: Aparelho02,
+        descricao: 'Tela Super Retina XDR brilhante de 6,1 polegadas. Ceramic Shield, que é quatro vezes mais resistente a quedas. Fotos surpreendentes em pouca luz com o modo Noite em todas as câmeras. Reprodução, edição e gravação de vídeo.',
     }, 
     {
         id: 3,
@@ -27,5 +28,6 @@ export const ListaAparelho = [
         gb: '228GB',
         preco: 'R$4.000',
         img: Aparelho03,
+        descricao: 'Tela Super Retina XDR brilhante de 6,1 polegadas. Ceramic Shield, que é quatro vezes mais resistente a quedas. Fotos surpreendentes em pouca luz com o modo Noite em todas as câmeras. Reprodução, edição e gravação de vídeo.',
     }
 ]
