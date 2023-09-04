@@ -8,7 +8,7 @@ import './Vizualizar.css'
 export default function VizualizarAparelho() {
     document.title = "Detalhes";
 
-    const notify = () => toast("Adicionado ao carrinho");
+    const notify = () => toast("ADD AO CARRINHO!");
 
     const {id} = useParams();
 
