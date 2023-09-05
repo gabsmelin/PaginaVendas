@@ -1,5 +1,4 @@
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+
 import { useParams, Link } from "react-router-dom";
 import { ListaAparelho } from "../components/ListaAparelho";
 import './Vizualizar.css'
@@ -7,8 +6,6 @@ import './Vizualizar.css'
 
 export default function VizualizarAparelho() {
     document.title = "Detalhes";
-
-    const notify = () => toast("ADD AO CARRINHO!");
 
     const {id} = useParams();
 
@@ -31,7 +28,7 @@ export default function VizualizarAparelho() {
                     <p>{produtoRecuperadoPorId[0].descricao}</p>
                     <p>GB: {produtoRecuperadoPorId[0].gb}</p>
                     <p>Cor: {produtoRecuperadoPorId[0].cor}</p>
-                    <h3><Link onClick={notify}>Comprar</Link><ToastContainer/></h3>
+                    <h3><Link >Comprar</Link></h3>
                     
                 </div>
             </div>
