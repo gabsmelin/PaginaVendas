@@ -11,7 +11,7 @@ export default function Home() {
                 <h3>Maravilindo.</h3>
                 <ul>
                     <li><Link to='/aparelho'>Saiba Mais</Link></li>
-                    <li><Link>Comprar</Link></li>
+                    <li><Link to='/aparelho'>Comprar</Link></li>
                 </ul>
                 
                 <img className="celulares" src={Celulares} alt="" />

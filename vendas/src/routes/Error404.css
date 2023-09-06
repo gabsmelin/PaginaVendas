@@ -1,3 +1,11 @@
+
+.container-erro  {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
 .container-erro img {
     width: 40%;
 }

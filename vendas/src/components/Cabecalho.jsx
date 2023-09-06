@@ -8,7 +8,7 @@ export default function Cabecalho() {
             <header>
                 <ul>
                     <li><Link to='/'><img className="logo" src={logo} alt="Logo" /></Link></li>
-                    <li><Link to='/home'>Home</Link></li>
+                    <li><Link to='/ '>Home</Link></li>
                     <li><Link to='/promocao'>Promoção</Link></li>
                     <li><Link to='/aparelho'>Aparelhos</Link></li>
                     <li><Link>Loja</Link></li>
