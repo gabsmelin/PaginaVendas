@@ -11,6 +11,7 @@ import Erro404 from './routes/Erro404.jsx';
 import Home from './routes/Home.jsx';
 import VizualizarAparelho from './routes/VizualizarAparelho.jsx';
 import Promocao from './routes/Promocao.jsx';
+import Manutencao from './routes/Manutencao.jsx';
 
 const router = createBrowserRouter([
   { path: '/', element: <App />, 
@@ -20,6 +21,7 @@ const router = createBrowserRouter([
         { path: '/promocao', element: <Promocao  />},
         { path: '/aparelho', element: <Aparelho />},
         { path: '/aparelho/detalhes/:id', element: <VizualizarAparelho />},
+        { path: '/manutencao', element: <Manutencao />},
     ]
   },
 ])

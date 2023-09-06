@@ -11,12 +11,12 @@ export default function Cabecalho() {
                     <li><Link to='/ '>Home</Link></li>
                     <li><Link to='/promocao'>Promoção</Link></li>
                     <li><Link to='/aparelho'>Aparelhos</Link></li>
-                    <li><Link>Loja</Link></li>
-                    <li><Link>Mac</Link></li>
-                    <li><Link>Ipad</Link></li>
-                    <li><Link>Iphone</Link></li>
-                    <li><Link>Watch</Link></li>
-                    <li><Link>AirPods</Link></li>
+                    <li><Link to='/manutencao'>Loja</Link></li>
+                    <li><Link to='/manutencao'>Mac</Link></li>
+                    <li><Link to='/manutencao'>Ipad</Link></li>
+                    <li><Link to='/manutencao'>Iphone</Link></li>
+                    <li><Link to='/manutencao'>Watch</Link></li>
+                    <li><Link to='/manutencao'>AirPods</Link></li>
                 </ul>
             </header>
         </div>
