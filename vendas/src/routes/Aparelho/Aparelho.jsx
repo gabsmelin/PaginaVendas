@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ListaAparelho } from "../components/ListaAparelho";
+import { ListaAparelho } from "../../components/ListaAparelho";
 import './Aparelho.css';
 
 export default function Aparelho() {

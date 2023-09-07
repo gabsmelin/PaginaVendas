@@ -6,11 +6,11 @@ import App from './App.jsx'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 
 //importanto páginas
-import Aparelho from './routes/Aparelho.jsx';
+import Aparelho from './routes/Aparelho/Aparelho.jsx';
 import Erro404 from './routes/Erro404.jsx';
-import Home from './routes/Home.jsx';
+import Home from './routes/Home/Home.jsx';
 import VizualizarAparelho from './routes/VizualizarAparelho.jsx';
-import Promocao from './routes/Promocao.jsx';
+import Promocao from './routes/Promocao/Promocao.jsx';
 import Manutencao from './routes/Manutencao.jsx';
 
 const router = createBrowserRouter([
