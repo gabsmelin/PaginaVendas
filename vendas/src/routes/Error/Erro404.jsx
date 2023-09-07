@@ -1,4 +1,4 @@
-import Error from '../assets/img/erro.jpg';
+import Error from '../../assets/img/erro.jpg';
 import './Error404.css';
 
 export default function Erro404() {

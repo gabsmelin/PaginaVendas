@@ -1,4 +1,4 @@
-import Manu from '../assets/img/manu.jpeg';
+import Manu from '../../assets/img/manu.jpeg';
 import './Manutencao.css'
 
 export default function Manutencao() {

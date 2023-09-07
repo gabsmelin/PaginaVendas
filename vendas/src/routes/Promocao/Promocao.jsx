@@ -1,5 +1,5 @@
-import Promocao01 from '../assets/img/promocao-one.jpg'
-import Promocao02 from '../assets/img/promocao.png'
+import Promocao01 from '../../assets/img/promocao-one.jpg'
+import Promocao02 from '../../assets/img/promocao.png'
 import './Promocao.css'
 
 export default function Promocao() {

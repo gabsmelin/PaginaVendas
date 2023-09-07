@@ -1,6 +1,6 @@
 
 import { useParams, Link } from "react-router-dom";
-import { ListaAparelho } from "../components/ListaAparelho";
+import { ListaAparelho } from "../../components/ListaAparelho";
 import './Vizualizar.css'
 
 
