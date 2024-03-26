@@ -10,22 +10,21 @@ div {
 }
 
 .container-rodape {
+    position: fixed;
     bottom: 0;
-    text-align: center;
+    left: 0;
+    width: 100%; /* Para ocupar toda a largura da tela */
     background-color: #f5f5f7;
     padding: 3%;
+    text-align: center;
 }
-footer {
-    display: flex;
-    flex-direction: column;
-    
-    width: 70%;
 
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 10px;
     font-weight: 500;
 }
 
-.container-rodape  p {
+.container-rodape p {
     margin-top: 2%;
 }
